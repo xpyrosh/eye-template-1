@@ -1,0 +1,121 @@
+.container {
+  max-width: 1280px;
+  position: relative;
+  padding: 0 1.5rem;
+  margin: auto;
+  text-align: center; }
+
+.emphasis {
+  color: #0f6bff; }
+
+.card {
+  border-radius: 20px;
+  background-color: white;
+  padding: 1rem 1.75rem;
+  line-height: 1.5; }
+  .card h1 {
+    padding-bottom: .5rem;
+    font-size: 1.75rem; }
+  .card p {
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center; }
+  .card a {
+    font-size: 1.25rem; }
+  .card span {
+    font-weight: bold; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: #f6f6f6; }
+
+#main-nav {
+  padding-top: 2rem; }
+  #main-nav .nav-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  #main-nav #nav-left {
+    display: flex;
+    justify-content: center; }
+    #main-nav #nav-left img {
+      height: auto;
+      width: auto;
+      max-height: 5rem; }
+    #main-nav #nav-left h2 {
+      font-size: 3rem;
+      line-height: 1.2; }
+    #main-nav #nav-left span {
+      float: left;
+      color: #555; }
+  #main-nav #nav-right {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.25rem; }
+    #main-nav #nav-right li {
+      padding-left: 2rem; }
+    #main-nav #nav-right a {
+      transition: all .5s;
+      color: black; }
+      #main-nav #nav-right a:hover {
+        color: #0f6bff; }
+    #main-nav #nav-right .current {
+      color: #0f6bff; }
+
+#home-a {
+  margin: 3rem 0;
+  padding: 2rem 0;
+  background: white; }
+  #home-a #header {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    #home-a #header img {
+      height: auto;
+      width: auto;
+      max-height: 550px;
+      min-height: 300px; }
+    #home-a #header h1 {
+      font-size: 2.25rem;
+      text-align: center;
+      color: #555;
+      padding-right: 2rem;
+      padding-left: 2rem;
+      font-style: italic; }
+
+#home-b {
+  margin: 3rem 0; }
+  #home-b .container {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-areas: 'op op' 'e c'; }
+  #home-b #our-prosthetics {
+    grid-area: op; }
+  #home-b #experience {
+    grid-area: e; }
+  #home-b #coverage {
+    grid-area: c; }
+
+#footer {
+  padding: 3rem;
+  background: #0f6bff;
+  color: white; }
+  #footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  #footer #footer-right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem; }
+    #footer #footer-right h1 {
+      font-size: 1.5rem; }
+    #footer #footer-right p {
+      padding-top: .75rem; }
