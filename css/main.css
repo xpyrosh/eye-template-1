@@ -6,7 +6,8 @@
   text-align: center; }
 
 .emphasis {
-  color: #0f6bff; }
+  color: #073d7a;
+  font-style: italic; }
 
 .card {
   border-radius: 20px;
@@ -14,6 +15,7 @@
   padding: 1rem 1.75rem;
   line-height: 1.5; }
   .card h1 {
+    color: #0f6bff;
     padding-bottom: .5rem;
     font-size: 1.75rem; }
   .card p {
@@ -72,7 +74,7 @@ body {
 #home-a {
   margin: 3rem 0;
   padding: 2rem 0;
-  background: white; }
+  background: #0f6bff; }
   #home-a #header {
     display: flex;
     align-items: center;
@@ -80,12 +82,11 @@ body {
     #home-a #header img {
       height: auto;
       width: auto;
-      max-height: 550px;
-      min-height: 300px; }
+      max-height: 350px; }
     #home-a #header h1 {
       font-size: 2.25rem;
       text-align: center;
-      color: #555;
+      color: white;
       padding-right: 2rem;
       padding-left: 2rem;
       font-style: italic; }
@@ -119,3 +120,35 @@ body {
       font-size: 1.5rem; }
     #footer #footer-right p {
       padding-top: .75rem; }
+
+#about {
+  margin: 3rem 0; }
+  #about h1 {
+    background: #0f6bff;
+    color: white;
+    text-align: left;
+    font-size: 1.75rem;
+    padding: .25rem 1.5rem;
+    border-radius: 25px; }
+  #about h3 {
+    padding: 1rem;
+    color: #073d7a;
+    font-size: 1.5rem; }
+  #about p {
+    font-size: 1.2rem;
+    line-height: 1.5; }
+  #about .about-us {
+    padding-bottom: 1rem; }
+  #about .background .background-content {
+    display: flex;
+    padding: 1rem; }
+    #about .background .background-content h3 span {
+      font-style: italic;
+      color: #0f6bff; }
+    #about .background .background-content img {
+      height: auto;
+      width: auto;
+      min-width: 150px;
+      min-height: 188px; }
+    #about .background .background-content .details {
+      padding: 0 1rem; }
