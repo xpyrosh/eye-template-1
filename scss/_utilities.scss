@@ -7,7 +7,7 @@
 }
 
 .emphasis{
-    color: $primary-dark;
+    color: $primary-color;
     font-style: italic;
 }
 
@@ -16,10 +16,11 @@
     // box-shadow: 0px 5px 5px #cccccc;
     border-radius: 20px;
     background-color: white;
+    border: 5px solid $primary-color;
     padding: 1rem 1.75rem;
     line-height: 1.5;
     h1 {
-        color: $primary-color;
+        color: $primary-dark;
         padding-bottom: .5rem;
         font-size: 1.75rem;
     }
